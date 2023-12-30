@@ -1,0 +1,6 @@
+train: ../data/images/train/images
+val: ../data/images/val/images
+test: ../data/images/test/images
+
+nc: 4
+names: ['Bearing', 'Bolt', 'Gear', 'Nut']

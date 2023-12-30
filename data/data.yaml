@@ -1,0 +1,13 @@
+train: ../data/images/train1/images
+val: ../data/images/valid1/images
+test: ../data/images/test1/images
+
+nc: 5
+names: ['bout', 'cilinder', 'moer', 'ring', 'schroefkoppeling']
+
+roboflow:
+  workspace: cv-onderdelen
+  project: cv-onderdelen
+  version: 3
+  license: Public Domain
+  url: https://app.roboflow.com/cv-onderdelen/cv-onderdelen/3
